@@ -1,0 +1,50 @@
+
+header {
+	float: left;
+	width: 100%;
+	background-color: lightblue;
+	margin: 0;
+}
+
+.contact {
+	background-color: pink;
+	text-align: right;
+	margin: 0;
+	width: 100%;
+	margin: 0;
+}
+
+.siteNav {
+	background-color: orange;
+	float: left;
+	margin: 0;
+}
+
+section {
+	background-color: lightgreen;
+	float: left;
+	margin: 0;
+}
+
+footer {
+	float: left;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.25em;
+	text-align: right;
+	color: black;
+	text-decoration: none;	
+
+}
+
+a {
+	text-decoration: none;  /*okay to globally define since I don't want any of the links underlined*/
+}

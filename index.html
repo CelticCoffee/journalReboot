@@ -5,28 +5,38 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Wendy Goodwin | Web Foundations Journal </title>
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link rel="stylesheet" type="text/css" href="responsive.css">
-        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Raleway' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
+    <div class="container"> <!-- the bootstrap container -->
+        <div class="row">
         <header>
+            <div class="col-12">
             <h1>Wendy Goodwin | Web Foundations Journal</h1>
+            </div>
         </header>
-        <nav class="contact">
+        </div>
+        <div class="contact" "row">
+            <div class="col-12">
             <ul>
                 <a href="mailto:wendygoodwin@mac.com">email</a>
                 <a href="portfolio">portfolio</a>
                 <a href="github">github</a>
             </ul>
-        </nav>
-        <nav class="siteNav">
+            </div>
+        </div>
+        </span>
+        <nav class="siteNav" "row">
+            <div class="col-sm-4">
             <ul>
                 <li><a href="#firstArticle">The Journal Begins</a></li>
                 <li><a href="#secondArticle">A Conversation</a></li>
@@ -34,8 +44,10 @@
                 <li><a href="#fourthArticle">jQuery vs Wendy</a></li>
                 <li><a href="#fifthArticle">Bootstrap vs Wendy</a></li>
             </ul>
+            </div>
        </nav>
-        <section>
+        <section class="row">
+            <div class="col-sm-4">
             </article id="firstArticle">
                 <h2>The Journal Begins</h2>
                 <p>
@@ -61,6 +73,7 @@
                 <h2>Bootstrap vs Wendy</h2>
                 <p>Maybe I shouldn't make everything sound like it's a competition.  Maybe jQuery and bootstrap could become my friends.  That said, bootstrap is a whole lot friendlier to me at the meet n greet than jQuery.  My carousel carousels!  Woo-hoo!!</p>
             </article>
+            </div>
         </section>
         <footer>
             <h3> &copy; 2015 Wendy Goodwin </h3>
@@ -79,5 +92,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+    </div> <!-- the bootstrap closing container -->
     </body>
     </html>
