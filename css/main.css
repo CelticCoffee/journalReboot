@@ -1,6 +1,5 @@
 
 header {
-	float: left;
 	width: 100%;
 	background-color: lightblue;
 	margin: 0;
@@ -16,18 +15,16 @@ header {
 
 .siteNav {
 	background-color: orange;
-	float: left;
 	margin: 0;
 }
 
 section {
 	background-color: lightgreen;
-	float: left;
 	margin: 0;
 }
 
 footer {
-	float: left;
+	
 }
 
 h1 {
