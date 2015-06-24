@@ -1,37 +1,36 @@
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
 
-header {
-	width: 100%;
-	background-color: lightblue;
-	margin: 0;
 }
-
 .contact {
-	background-color: pink;
+	/*background-color: pink;*/
 	text-align: right;
 	margin: 0;
 	width: 100%;
-	margin: 0;
+}
+
+.contact a {
+	padding-left: 1em;
+}
+
+.siteNav ul {
+	background-color: orange;
+	list-style: none;
 }
 
 .siteNav {
-	background-color: orange;
-	margin: 0;
+
+
 }
 
 section {
 	background-color: lightgreen;
-	margin: 0;
+	/*margin: 0;*/
 }
 
-footer {
-	
-}
 
-h1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 2em;
-	text-align: left;
-}
 
 h3 {
 	font-family: 'Raleway', sans-serif;
